@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: url(img/back.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px 5rem 0 5rem;
+}
+
+header .header-article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+header .header-article .logo h1{
+    color: white;
+}
+header .header-article .nav-div nav{
+    margin-left: 9em;
+}
+header .header-article .nav-div nav ul{
+    display: flex;
+}
+header .header-article .nav-div nav ul li{
+    padding: 0 10px;
+    transition: 0.5s;
+}
+header .header-article .nav-div nav ul li a{
+    color: white;
+}
+header .header-article .nav-div nav ul li:hover{
+    border-bottom: 2px solid orange;
+}
+header .header-article .login-div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+header .header-article .login-div a{
+    color: white;
+    font-size: 18px;
+}
+
+/* gradient border */
+
+header .header-article .login-div .border-div{
+    padding: 4px ;
+    position: relative;
+    background: linear-gradient(to right, rgba(0, 240, 255, 1),rgba(87, 115, 255, 1), rgba(255, 0, 122, 1));
+    border-radius: 20px;
+}
+header .header-article .login-div .border-a{
+    background: rgb(83, 1, 83);
+    color: white;
+    padding: 2px 20px;
+    border-radius: 20px;
+}
+
+
+/* main section */
+
+main section .main-div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+}
+
+main section .main-div .title-div .p-1{
+    font-size: 30px;
+    color: white;
+}
+main section .main-div .title-div h1{
+    
+    font-size: 5em;
+    
+    /* Linear */
+    
+    background: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+main section .main-div .title-div .p-2{
+    font-size: 15px;
+    color: white;
+}
+
+main section .main-div .letsgo-div{
+    display: flex;
+    justify-content: center;
+    border:2px solid purple;
+    margin-top: 10px;
+    width: 15em;
+    transform: translateX(85%);
+    border-radius: 20px;
+    padding: 5px 15px;
+
+}
+main section .main-div .letsgo-div p{
+    color: white;
+    padding: 5px 0;
+}
+main section .main-div .last-div{
+    height: 20em;
+}
+main section .main-div .last-div img{
+    padding-top: 5em;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    transition: 0.5s;
+
+}
+main section .main-div .last-div img:hover{
+    top: 20px;
+}
+
+
+
